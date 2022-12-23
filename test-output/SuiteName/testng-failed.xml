@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]" parallel="tests">
+  <test name="TescoLoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.dimensionData.pom.testcases.RegisteredUserFlow">
+        <methods>
+          <include name="quit"/>
+          <include name="incrementAndDecrementItems" invocation-numbers="0"/>
+          <include name="changeDeliveryAddress" invocation-numbers="0"/>
+          <include name="reviewBasketAndValidateGuidePrice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RegisteredUserFlow -->
+      <class name="com.dimensionData.pom.testcases.GuestUserFlow">
+        <methods>
+          <include name="quit"/>
+          <include name="browseProducts" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- GuestUserFlow -->
+    </classes>
+  </test> <!-- TescoLoginTest(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

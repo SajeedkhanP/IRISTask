@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T13:30:47Z" name="Default suite" finished-at="2022-12-23T13:31:01Z" duration-ms="13281">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T13:30:47Z" name="Default test" finished-at="2022-12-23T13:31:01Z" duration-ms="13281">
+      <class name="com.Iris.pom.testcases.Demo">
+        <test-method is-config="true" signature="startUpTest()[pri:0, instance:com.Iris.pom.testcases.Demo@36f48b4]" started-at="2022-12-23T19:00:45Z" name="startUpTest" finished-at="2022-12-23T19:00:47Z" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUpTest -->
+        <test-method signature="verifyOurSchoolApp()[pri:0, instance:com.Iris.pom.testcases.Demo@36f48b4]" started-at="2022-12-23T19:00:47Z" name="verifyOurSchoolApp" finished-at="2022-12-23T19:01:00Z" duration-ms="12881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOurSchoolApp -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Iris.pom.testcases.Demo@36f48b4]" started-at="2022-12-23T19:01:00Z" name="quit" finished-at="2022-12-23T19:01:01Z" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.Iris.pom.testcases.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

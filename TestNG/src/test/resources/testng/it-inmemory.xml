@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Custom Storage Plugin Tests" verbose="1">
+    <test name="CustomPluginTest">
+        <!-- The type of the plugin as set in the @Plugin annotation -->
+        <parameter name="pluginType" value="IN_MEMORY" /> <!-- CHANGE! -->
+        
+        <!-- Access to the device management API -->
+        <parameter name="managementIp" value="127.0.0.1" /> <!-- CHANGE! -->
+        <parameter name="serviceIp" value="127.0.0.1" /> <!-- CHANGE! -->
+        
+        <!-- Change if the port is not the default one in the @Plugin annotation
+        <parameter name="managementPort" value="CHANGEME" />
+        <parameter name="servicePort" value="CHANGEME" />
+        -->
+        
+        <!-- Uncomment if the plugin requires authentication 
+        <parameter name="managementUser" value="CHANGEME" />
+        <parameter name="managementPass" value="CHANGEME" />
+        -->
+        
+        <!-- Name of the pool to be used in the tests -->
+        <parameter name="poolName" value="In Memory" /> <!-- CHANGE! -->
+        
+        <!-- DO NOT CHANGE. This class implements the default test suite -->
+        <classes>
+            <class name="com.abiquo.ssm.plugin.StoragePluginTest" />
+        </classes>
+    </test>
+</suite>

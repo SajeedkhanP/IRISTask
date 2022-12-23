@@ -1,0 +1,21 @@
+
+1) Error is happening during the call of "https://pro-fapi-osa.t-cg.co.uk/api/schools/organisationId/news?markAsRead=false" to the server.
+
+i) The root cause of the failure is 404 Page not found - Which means the destination web page has been removed by the owner
+https://osa-web.t-cg.co.uk/qatest
+
+ii) Path of the server is also wrong.
+
+Actual :- /api/schools/organisationId/news?markAsRead=false
+
+Expected :- /api/schools/4055/news?markAsRead=false
+
+iii) Also I had a observation that it is calling the ":method: OPTIONS" instead of "GET" method, which is working fine for the valid News Tab.
+
+
+
+2) Description :- 
+Steps to reproduce the issue:- 
+
+i) Launch the URL "https://osa-web.t-cg.co.uk/qatest" in parallel with the network tab open in DevTools
+ii) In network calls you will find the request which is failing. Please find the screen shot attached for the same.

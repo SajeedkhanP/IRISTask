@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.ranker.pom.testcases.Signup">
+        <methods>
+          <include name="quit"/>
+          <include name="signup"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Signup -->
+      <class name="com.ranker.pom.testcases.WatchList">
+        <methods>
+          <include name="quit"/>
+          <include name="watchlist_plus"/>
+          <include name="watchlist"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.WatchList -->
+      <class name="com.ranker.pom.testcases.Register">
+        <methods>
+          <include name="startTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Register -->
+      <class name="com.ranker.pom.testcases.Signout">
+        <methods>
+          <include name="login"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Signout -->
+      <class name="com.ranker.pom.testcases.Login">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Login -->
+      <class name="com.ranker.pom.testcases.Home">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Home -->
+      <class name="com.ranker.pom.testcases.Search">
+        <methods>
+          <include name="quit"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Search -->
+      <class name="com.ranker.pom.testcases.Worthy">
+        <methods>
+          <include name="worthy_dislike"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.ranker.pom.testcases.Worthy -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
