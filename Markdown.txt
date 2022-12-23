@@ -18,4 +18,4 @@ iii) Also I had a observation that it is calling the ":method: OPTIONS" instead 
 Steps to reproduce the issue:- 
 
 i) Launch the URL "https://osa-web.t-cg.co.uk/qatest" in parallel with the network tab open in DevTools
-ii) In network calls you will find the request which is failing. Please find the screen shot attached for the same.
+ii) In network calls you will find the request which is failing. Please find the screen shot attached at the folder "ScreenShot" for the same.
